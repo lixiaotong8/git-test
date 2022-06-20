@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>webstorm</title>
 </head>
 <body>
+<!--    <form id="form" action="">-->
+<!--        <label for="username">账号：</label>-->
+<!--        <input id="username" type="text"><br/>-->
+<!--        <label for="password">密码：</label>-->
+<!--        <input id="password" type="password"><br/>-->
+<!--    </form>-->
+    <input id="input" type="text">
+    <button id="btn">点击</button>
 
+    <script>
+        // let form = document.getElementById("form")
+        let input = document.getElementById("input")
+        let button = document.getElementById("btn")
+        button.addEventListener("click", () => {
+            console.log(input.value)
+        })
+    </script>
 </body>
 </html>
